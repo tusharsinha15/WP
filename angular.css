@@ -1,0 +1,7 @@
+body {
+    align-items: center;
+    height: 100vh;
+    background-image: url("images/banner1.jpg");
+    background-size: cover;
+    background-position: center;
+  }

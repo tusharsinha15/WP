@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Login  Page</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/e8e9e4a1da.js" crossorigin="anonymous"></script>
+</head>
+<body>
+      <div class="box">
+        <div class="container">
+            <div class="top-header">
+                <span>Have An Account?</span>
+                <header>Login</header>
+            </div>
+            <form action="login.php" method="post">
+            <div class="input-field">
+                <input type="text" class="input" placeholder="Username"  name="email" required>
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="input-field">
+                <input type="password" class="input" placeholder="password" required>
+                <i class="fa-solid fa-lock"></i>
+            </div>
+            <div class="input-field">
+                <input type="submit" class="submit" value="Login" name="login">
+            </div>
+            
+            <div class="bottom">
+                <div class="left">
+                    <input type="checkbox" id="check">
+                    <label for="check">Remember Me</label>
+                </div>
+                <div class="right">
+                   <label><a href="#">Forgot Password?</a></label>
+                </div>
+            </form>
+            </div>
+        </div>
+      </div>  
+</body>
+</html>
